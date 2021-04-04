@@ -1,0 +1,134 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+  }
+
+header {
+    background: rgba(251, 211, 185);
+    padding: 20px 0;
+}
+
+.menu {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 100px;
+    right: 0px;
+}
+
+nav li {
+    display: inline;
+    margin-left: 40px;
+}
+ 
+nav a {
+    text-transform: uppercase; /*maiusculas*/
+    text-decoration: none;
+    color: rgba(53, 137, 26);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: rgba(54, 137, 26, 0.404);
+    text-decoration: underline; /*cria a linha de menu*/
+}
+
+.vazia {
+    background: rgba(251, 211, 185, 0.623);
+    padding-top: 20px;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.vazia {
+    background: rgba(251, 211, 185, 0.623);
+    padding-top: 20px;
+}
+
+.titulo-encomendas {
+    color: rgba(53, 137, 26);
+    padding: 20px 0 0 0;
+    font-size: 1.2em;
+}
+
+form {
+    margin: 40px 0;
+}
+
+.input-padrao {
+    display: block;
+    padding: 10px 25px;
+    margin: 0 0 20px;
+    width: 50%;
+    font-size: 15px; /*tamanho a fonte*/
+}
+
+fieldset { 
+  border: 0;
+}
+
+legend {
+    padding-top: 30px;
+    font-size: 15px;
+}
+
+.checkbox {
+    padding: 10px 0 15px 0;
+    font-size: 20px;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: rgba(53, 137, 26);
+    color: white;
+    border: none;
+    font-weight: bold; /*peso da fonte: negrito*/
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.5s  all /*background*/; /*tempo de transiçao de cor do botão para uma cor mais escura*/
+    cursor: pointer
+}
+
+.enviar:hover {
+    background: rgba(54, 137, 26, 0.404);
+    color: black;
+}
+
+form label, form legend {
+    display:block;
+    font-size: 20px;
+    margin: 0 0 10px; /* espaço entre a label e o campo abaixo*/
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.vazia_3 {
+    background: rgba(251, 211, 185, 0.623);
+    padding: 10px;
+}
+
+footer {
+    background: rgba(251, 211, 185);    
+}
+
+.img_rodape {
+ padding-left: 47% ;
+}
+
+.copyright {
+    text-align: center;
+    padding-bottom: 7px;
+}

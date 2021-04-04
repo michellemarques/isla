@@ -1,0 +1,106 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    background:  #fefefe;
+  }
+
+ header {
+    background: rgba(251, 211, 185);
+    padding: 20px 0;
+}
+
+.menu {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 100px;
+    right: 0px;
+}
+
+nav li {
+    display: inline;
+    margin-left: 40px;
+}
+ 
+nav a {
+    text-transform: uppercase; /*maiusculas*/
+    text-decoration: none;
+    color: rgba(53, 137, 26);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: rgba(54, 137, 26, 0.404);
+    text-decoration: underline; /*cria a linha de menu*/
+}
+
+/*-----------------------------------------------*/
+
+
+h2 {
+    color: rgba(53, 137, 26);  
+    font-size: 1.5em;
+    text-align: center;
+    padding: 20px 20px 50px 20px;
+}
+
+#acesso{
+    padding: 20px 0 40px 0;
+    text-align: center;
+}
+
+
+.usuario{
+    padding-right: 30px;
+    font-size: 15px;
+}
+h4{
+    text-align: center;
+    color: rgb(126, 125, 125);
+}
+li{
+    list-style-type: none;
+    margin: 20px;
+}
+.cardapios{
+    text-align: center;
+    margin: 20px;
+}
+
+#semana{
+    padding: 10px;
+    width: 700px;
+}
+
+#organico{
+    padding: 10px;
+    width: 700px;
+}
+
+.cardapio-organico {
+    display: inline;
+    width: 20%;
+    text-align: center;
+}
+.semana-organico {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/*-----------------------------------------------*/
+
+footer {
+    background: rgba(251, 211, 185);    
+}
+.img_rodape {
+    padding-left: 47% ;
+   }
+
+.copyright {
+    text-align: center;
+    padding-bottom: 7px;
+}

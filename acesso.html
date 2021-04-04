@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/acesso.css">
+    <title>Isla vegana - Cardápios</title>
+</head>
+
+<body>
+    <header>
+        <div class="menu">
+            <h1><img src="assets/logo_isla.png" alt="logo_isla_vagana"> </h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html"> Home </a></li>
+                    <li><a href="cardapios.html"> Cardápios semanais </a></li>
+                    <li><a href="formulario.html"> Encomendas </a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <section>
+        <div class="vazia"></div>
+        <h2>Acesso</h2>
+    </section>
+    <section>
+        <form id="acesso">
+            <div>
+                <label for="usuario">Usuário:</label>
+                <input type="text" name="login" class="usuario" placeholder="Digite usuário">
+            </div>
+            <div>
+                <label for="senha">Senha:</label>
+                <input type="text" name="senha" class="senha" placeholder="Digite senha">
+            </div>
+
+
+
+            <input type="submit" value="Validar" class="botaoValidar">
+
+        </form>
+    </section>
+
+    <section class="cardapios">
+        <span class="formulario oculto">
+            <div>
+                <h4>Cardápio da semana</h4>
+                <ul>
+                    <li>
+                        <label for="">Primeira opção:</label>
+                        <input type="text" id="semana">
+                        <input type="button" value="Adicionar">
+                    </li>
+                    <li>
+                        <label for="">Segunda opção:</label>
+                        <input type="text" name="" id="semana">
+                        <input type="button" value="Adicionar">
+                    </li>
+                    <li>
+                        <label for="">Terceira opção:</label>
+                        <input type="text" name="" id="semana">
+                        <input type="button" value="Adicionar">
+                    </li>
+                    <li>
+                        <label for="">Quarta opção:</label>
+                        <input type="text" name="" id="semana">
+                        <input type="button" value="Adicionar">
+                    </li>
+                    <li>
+                        <label for="">Quinta opção:</label>
+                        <input type="text" name="" id="semana">
+                        <input type="button" value="Adicionar">
+                    </li>
+                </ul>
+
+            </div>
+            <div>
+                <h4>Cardápio orgânico</h4>
+                <ul>
+                    <li>
+                        <label for="">Primeira opção:</label>
+                        <input type="text" name="" id="organico">
+                        <input type="button" value="Adicionar">
+                    </li>
+                    <li>
+                        <label for="">Segunda opção:</label>
+                        <input type="text" name="" id="organico">
+                        <input type="button" value="Adicionar">
+                    </li>
+                    <li>
+                        <label for="">Terceira opção:</label>
+                        <input type="text" name="" id="organico">
+                        <input type="button" value="Adicionar">
+                    </li>
+                    <li>
+                        <label for="">Quarta opção:</label>
+                        <input type="text" name="" id="organico">
+                        <input type="button" value="Adicionar">
+                    </li>
+                    <li>
+                        <label for="">Quinta opção:</label>
+                        <input type="text" name="" id="organico">
+                        <input type="button" value="Adicionar">
+                    </li>
+                </ul>
+            </div>
+            <input type="button" value="Enviar para cardápios">
+        </span>
+
+    </section>
+    <script src="js/jquery.js"></script>
+    <script src="js/acesso.js"></script>
+
+    <div class="vazia_3"></div>
+    <footer>
+        <img src="assets/logo_isla.jpg" alt="logo_isla_vegana" class="img_rodape">
+        <p class="copyright">&copy; Copyright Isla Vegana - 2021</p>
+    </footer>
+</body>
+
+</html>

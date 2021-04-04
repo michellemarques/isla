@@ -1,0 +1,129 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+header {
+    background: rgba(251, 211, 185);
+    padding: 20px 0;
+}
+.menu {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 100px;
+    right: 0px;
+}
+
+nav li {
+    display: inline;
+    margin-left: 40px;
+}
+ 
+nav a {
+    text-transform: uppercase; /*maiusculas*/
+    text-decoration: none;
+    color: rgba(53, 137, 26);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: rgba(54, 137, 26, 0.404);
+    text-decoration: underline; /*cria a linha de menu*/
+}
+
+.vazia {
+    background: rgba(251, 211, 185, 0.623);
+    padding-top: 20px;
+
+}
+.sobre {
+    background: #fefefe;
+    width: 940px;
+    padding: 2em 0 0 0;
+    margin: 0 auto;
+}
+.sobre p {
+    font-weight: bold;
+}
+
+.titulo_sobre {
+    text-align: center;
+    color: rgba(53, 137, 26);
+}
+
+.img_sobre {
+    border-radius: 20px 20px 20px 20px;
+    padding: 10px;
+    padding-bottom: 60px;
+    padding-top: 50px;
+} 
+
+.sobre p {
+    margin: 0 0 1em;
+    text-align: center;
+    padding: 5px;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+.vazia_2 {
+    background: #fefefe;
+    padding-top: 20px;
+}
+
+.pedidos {
+    background: #fefefe;
+    padding: 3em 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.mais_pedidos {
+    display: inline;
+    position: relative;
+}
+
+.pedidos h2 {
+    text-align: center;
+    color: rgba(53, 137, 26);
+    padding-bottom: 50px;
+    padding-top: 15px;
+}
+
+.pedidos p {
+    font-style: italic;
+    text-align: center;
+}
+
+.img_pedidos {
+    position: relative;
+    padding-left: 10%;
+}
+
+.txt_pedidos {
+    margin-bottom: 50px;
+    color:#000000
+}
+
+.vazia_3 {
+    background: rgba(251, 211, 185, 0.623);
+    padding-top: 20px;
+}
+
+footer {
+    background: rgba(251, 211, 185);    
+}
+
+.img_rodape {
+ padding-left: 47% ;
+}
+
+.copyright {
+    text-align: center;
+    padding-bottom: 7px;
+}

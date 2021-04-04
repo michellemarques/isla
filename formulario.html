@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/formulario.css">
+
+    <title>Isla vegana - Contato</title>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="menu">
+            <h1><img src="assets/logo_isla.png" alt="logo_isla_vagana"> </h1>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html"> Home </a></li>
+                    <li><a href="cardapios.html"> Cardápios semanais </a></li>
+                    <li><a href="formulario.html"> Encomendas </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div class="vazia">
+        </div>
+    </section>
+    <main>
+        <h2 class="titulo-encomendas"> Para fazer pedidos, reclamações ou tirar dúvidas sobre nosso produtos: <h2>
+        <form action="">
+            <label for="nome_sobrenome">Nome e sobrenome</label>
+            <input type="text" name="" id="name" class="input-padrao" required>
+
+            <label for="email">Email</label>
+            <input type="email" name="" id="email" class="input-padrao" required placeholder="seuemail@dominio.com.br">
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" name="" id="telefone" class="input-padrao" required placeholder="(xx) xxxx-xxxx">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea name="" id="mensagem" cols="30" rows="10" class="input-padrao" required></textarea>
+
+            
+
+            <fieldset> <!--Cria uma borda q envolve o conteudo-->
+                <legend>Como prefere receber nossos cardápios semanais:</legend>
+
+                <label for="radio-email"> <input type="radio" name="" id="radio-email" value="email"> Email</label>
+                <label for="radio-sms"> <input type="radio" name="" id="radio-sms" value="sms"> Torpedo sms </label>
+                <label for="radio-whatsapp"> <input type="radio" name="" id="radio-whatsapp" value="whatsapp" checked> Whatsapp</label>
+
+            </fieldset>
+
+            <label for="checkbox" class="checkbox"> <input type="checkbox" name="" id="" checked> Gostaria de receber nosso cardápio semanal por email? </label>
+
+            <input type="submit" name="" id="" value="Enviar formulario" class="enviar">
+        </form>
+
+        </section>
+    </main>
+
+    <div class="vazia_3"></div>
+    <footer>
+        <img src="assets/logo_isla.jpg" alt="logo_isla_vegana" class="img_rodape">
+        <p class="copyright">&copy; Copyright Isla Vegana - 2021</p>
+    </footer>
+
+</body>
+
+</html>

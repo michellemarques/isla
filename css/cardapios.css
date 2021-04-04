@@ -1,0 +1,116 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    background:  #fefefe;
+  }
+
+ header {
+    background: rgba(251, 211, 185);
+    padding: 20px 0;
+}
+
+.menu {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 100px;
+    right: 0px;
+}
+
+nav li {
+    display: inline;
+    margin-left: 40px;
+}
+ 
+nav a {
+    text-transform: uppercase; /*maiusculas*/
+    text-decoration: none;
+    color: rgba(53, 137, 26);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: rgba(54, 137, 26, 0.404);
+    text-decoration: underline; /*cria a linha de menu*/
+}
+
+/*-----------------------------------------------*/
+
+.vazia {
+    background: rgba(251, 211, 185, 0.623);
+    padding-top: 20px;
+}
+
+.cardapio-normal{
+    display: inline;
+    width: 20%;
+}
+
+ul {
+    list-style: none;
+    /* tirar bola dos marcadores */
+}
+.cardapio-normal {
+    display: inline;
+    width: 20%;
+    text-align: center;
+}
+
+.semana {
+    font-weight: 600;
+    font-size: 1.2em;
+    /*line-height: 2 px; -> espaçamento entre frases */
+    padding: 15px;
+}
+.vazia_2 {
+    background: rgba(251, 211, 185, 0.623);
+    padding: 15px;
+    display: block;
+    width: 30%;
+    margin: 0 0 0 420px;;
+ }
+
+h2 {
+    color: rgba(53, 137, 26);  
+    font-size: 1.5em;
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+.cardapio-organico {
+    display: inline;
+    width: 20%;
+    text-align: center;
+}
+.semana-organico {
+    font-weight: 500;
+    font-size: 20px;
+}
+.semana-organico {
+    font-weight: 600;
+    font-size: 1.2em;
+    padding: 15px;
+    /*line-height: 2 px; -> espaçamento entre frases */
+}
+
+.vazia_3 {
+    background: rgba(251, 211, 185, 0.623);
+    padding-top: 20px;
+}
+
+/*-----------------------------------------------*/
+
+footer {
+    background: rgba(251, 211, 185);    
+}
+.img_rodape {
+    padding-left: 47% ;
+   }
+
+.copyright {
+    text-align: center;
+    padding-bottom: 7px;
+}
