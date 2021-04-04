@@ -41,6 +41,7 @@ nav a:hover {
 /*-----------------------------------------------*/
 
 
+
 h2 {
     color: rgba(53, 137, 26);  
     font-size: 1.5em;
@@ -53,7 +54,6 @@ h2 {
     text-align: center;
 }
 
-
 .usuario{
     padding-right: 30px;
     font-size: 15px;
@@ -61,22 +61,31 @@ h2 {
 h4{
     text-align: center;
     color: rgb(126, 125, 125);
+    margin: 20px;
+    padding: 20px;
 }
 li{
     list-style-type: none;
     margin: 20px;
 }
 .cardapios{
+    /*display: none; <-- oculta o conteudo */
     text-align: center;
     margin: 20px;
 }
+.primeira{
+    margin-bottom: 20px;
+}
+.segunda{
+    margin-top: 20px;
+}
 
-#semana{
+#comida-normal{
     padding: 10px;
     width: 700px;
 }
 
-#organico{
+#comida-organica{
     padding: 10px;
     width: 700px;
 }
@@ -89,6 +98,10 @@ li{
 .semana-organico {
     font-weight: 500;
     font-size: 20px;
+}
+.oculta-cardapio{
+    display: block;
+    
 }
 
 /*-----------------------------------------------*/
