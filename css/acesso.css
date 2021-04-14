@@ -117,3 +117,37 @@ footer {
     text-align: center;
     padding-bottom: 7px;
 }
+/*-----*/
+body {
+    margin: 0;
+  }
+  
+  .topbar {
+    background-color: #faa;
+  }
+  
+  .topbar-inner {
+    max-width: 960px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .login-form {
+    display: flex;
+  }
+  
+  .submit-button {
+    margin-left: 10px;
+    align-self: flex-end;
+  }
+  
+  .input-container + .input-container {
+    margin-left: 10px;
+  }
+  
+  .input-container label {
+    display: block;
+  }

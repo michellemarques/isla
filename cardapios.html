@@ -7,59 +7,141 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/cardapios.css">
     <title>Isla vegana - Cardápios</title>
 </head>
 
 <body>
-    <header>
-        <div class="menu">
-            <h1><img src="assets/logo_isla.png" alt="logo_isla_vagana"> </h1>
+    <!-- Login -->
+    <div class="d-flex justify-content-end login">
+        <div class="row">
+            <div class="col-lg-12">
+                <form class="login-form">
+                    <div class="input-container">
+                        <label for="email">Login</label>
+                        <input class="login" name="login" type="text">
+                    </div>
 
-            <nav>
-                <ul>
-                    <li><a href="index.html"> Home </a></li>
-                    <li><a href="cardapios.html"> Cardápios semanais </a></li>
-                    <li><a href="formulario.html"> Encomendas </a></li>
-                </ul>
-            </nav>
+                    <div class="input-container ">
+                        <label for="password">Senha</label>
+                        <input class="senha" name="senha" type="password">
+                    </div>
+                    <input class="submit-button" type="submit" value="Entrar">
+                </form>
+                </div>
+        </div>
+    </div>
+
+    <!---->
+    <header>
+        <!-- Menu -->
+        <nav class="navbar navbar-expand-lg navbar-light>
+            <a class=" navbar-brand" href="#"><img src="assets/isla logo.png" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(Página
+                                atual)</span></a>
+                        <a class="nav-item nav-link active" href="#">Cardápios </a>
+                        <a class="nav-item nav-link active" href="#">Encomendas</a>
+
+                    </div>
+                </div>
+        </nav>
     </header>
 
-        <section>
-            <div class="vazia"></div>
-        </section>
+    <section>
+        <div class="vazia"></div>
+    </section>
 
-        <section>
-            <div class="cardapio-normal">
-                <h2>Cardápio da semana</h2>
-                <ul>
-                    <li class="semana">
-                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis.</p>
-                    </li>
-                </ul>
-            </div>
+    <section>
+        <div class="cardapio-normal">
+            <h2>Cardápio da semana</h2>
+            <ul>
+                <li class="semana">
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis.</p>
+                </li>
+            </ul>
+        </div>
 
-            <div class="vazia_2"></div>
+        <div class="vazia_2"></div>
 
-            <div class="cardapio-organico">
-                <h2>Cardápio orgânicos</h2>
+        <div class="cardapio-organico">
+            <h2>Cardápio orgânicos</h2>
 
-                <ul>
-                    <li class="semana-organico">
-                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis.</p>
-                    </li>
-                </ul>
-            </div>
+            <ul>
+                <li class="semana-organico">
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
 
+    <section class="cardapios">
+        <div class="primeira">
+            <h4>Cardápio Vegano</h4>
+            <ul class="vegano">
+                <li>
+                    <label for="">Primeira opção:</label>
+                    <input type="text" id="veg-1">
+                </li>
+                <li>
+                    <label for="">Segunda opção:</label>
+                    <input type="text" name="" id="veg-2">
+                </li>
+                <li>
+                    <label for="">Terceira opção:</label>
+                    <input type="text" name="" id="veg-3">
+                </li>
+                <li>
+                    <label for="">Quarta opção:</label>
+                    <input type="text" name="" id="veg-4">
+                </li>
+                <li>
+                    <label for="">Quinta opção:</label>
+                    <input type="text" name="" id="veg-5">
+                </li>
+                <input type="button" value="Envia lista vegana" class="enviar-lista-veg">
+            </ul>
+        </div>
+        <div class="segunda">
+            <h4>Cardápio vegano orgânico</h4>
+            <ul class="vegano-organico">
+                <li>
+                    <label for="">Primeira opção:</label>
+                    <input type="text" name="" id="veg-org-1">
+                </li>
+                <li>
+                    <label for="">Segunda opção:</label>
+                    <input type="text" name="" id="veg-org-2">
+                </li>
+                <li>
+                    <label for="">Terceira opção:</label>
+                    <input type="text" name="" id="veg-org-3">
+                </li>
+                <li>
+                    <label for="">Quarta opção:</label>
+                    <input type="text" name="" id="veg-org-4">
+                </li>
+                <li>
+                    <label for="">Quinta opção:</label>
+                    <input type="text" name="" id="veg-org-5">
+                </li>
+                <input type="button" value="Envia lista vegana orgânica" class="enviar-lista-veg-org">
+            </ul>
+        </div>
+    </section>
 
-        </section>
-
-        <div class="vazia_3"></div>
-        <footer>
-            <img src="assets/logo_isla.jpg" alt="logo_isla_vegana" class="img_rodape">
-            <p class="copyright">&copy; Copyright Isla Vegana - 2021</p>
-        </footer>
+    <script src="js/acesso.js"></script>
+    <div class="vazia_3"></div>
+    <footer>
+        <img src="assets/logo_isla.jpg" alt="logo_isla_vegana" class="img_rodape">
+        <p class="copyright">&copy; Copyright Isla Vegana - 2021</p>
+    </footer>
 
 </body>
 

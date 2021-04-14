@@ -13,6 +13,28 @@
 
 <body>
     <header>
+        
+        <!-- Login -->
+        <div class="topbar">
+            <div class="topbar-inner">
+                <div class="logo">Logo</div>
+
+                <form class="login-form">
+                    <div class="input-container">
+                        <label for="email">Email</label>
+                        <input id="email" name="name" type="text">
+                    </div>
+
+                    <div class="input-container">
+                        <label for="password">Senha</label>
+                        <input id="password" name="password" type="password">
+                    </div>
+
+                    <input class="submit-button" type="submit" value="Entrar">
+                </form>
+            </div>
+        </div>
+        <!---->
         <div class="menu">
             <h1><img src="assets/logo_isla.png" alt="logo_isla_vagana"> </h1>
             <nav>
@@ -22,6 +44,7 @@
                     <li><a href="formulario.html"> Encomendas </a></li>
                 </ul>
             </nav>
+
     </header>
 
     <section>
@@ -30,79 +53,69 @@
     </section>
     <section>
         <form id="acesso">
-                <label for="usuario">Usuário:</label>
-                <input type="text" name="login" class="usuario" placeholder="Digite usuário">
-                <label for="senha">Senha:</label>
-                <input type="text" name="senha" class="senha" placeholder="Digite senha">
+            <label for="usuario">Usuário:</label>
+            <input type="text" name="login" class="usuario" placeholder="Digite usuário">
+            <label for="senha">Senha:</label>
+            <input type="text" name="senha" class="senha" placeholder="Digite senha">
             <input type="submit" value="Validar" class="botaoValidar">
         </form>
     </section>
 
     <section class="cardapios">
-            <div class="primeira"> 
-                <h4>Cardápio da Vegano</h4>
-                <ul class="vegano">
-                    <li>
-                        <label for="">Primeira opção:</label>
-                        <input type="text" id="comida-normal">
-                        <input type="button" value="Adicionar" class="">
-                    </li>
-                    <li>
-                        <label for="">Segunda opção:</label>
-                        <input type="text" name="" id="comida-normal">
-                        <input type="button" value="Adicionar" class="">
-                    </li>
-                    <li>
-                        <label for="">Terceira opção:</label>
-                        <input type="text" name="" id="comida-normal">
-                        <input type="button" value="Adicionar" class="">
-                    </li>
-                    <li>
-                        <label for="">Quarta opção:</label>
-                        <input type="text" name="" id="comida-normal">
-                        <input type="button" value="Adicionar" class="">
-                    </li>
-                    <li>
-                        <label for="">Quinta opção:</label>
-                        <input type="text" name="" id="comida-normal">
-                        <input type="button" value="Adicionar" class="">
-                    </li>
-                </ul>
-            </div>
-            <div class="segunda">
-                <h4>Cardápio orgânico</h4>
-                <ul class="vegano-organico">
-                    <li>
-                        <label for="">Primeira opção:</label>
-                        <input type="text" name="" id="comida-organica">
-                        <input type="button" value="Adicionar">
-                    </li>
-                    <li>
-                        <label for="">Segunda opção:</label>
-                        <input type="text" name="" id="comida-organica">
-                        <input type="button" value="Adicionar">
-                    </li>
-                    <li>
-                        <label for="">Terceira opção:</label>
-                        <input type="text" name="" id="comida-organica">
-                        <input type="button" value="Adicionar">
-                    </li>
-                    <li>
-                        <label for="">Quarta opção:</label>
-                        <input type="text" name="" id="comida-organica">
-                        <input type="button" value="Adicionar">
-                    </li>
-                    <li>
-                        <label for="">Quinta opção:</label>
-                        <input type="text" name="" id="comida-organica">
-                        <input type="button" value="Adicionar">
-                    </li>
-                </ul>
-            </div>
-            <input type="button" value="Enviar para cardápios">
+        <div class="primeira">
+            <h4>Cardápio Vegano</h4>
+            <ul class="vegano">
+                <li>
+                    <label for="">Primeira opção:</label>
+                    <input type="text" id="veg-1">
+                </li>
+                <li>
+                    <label for="">Segunda opção:</label>
+                    <input type="text" name="" id="veg-2">
+                </li>
+                <li>
+                    <label for="">Terceira opção:</label>
+                    <input type="text" name="" id="veg-3">
+                </li>
+                <li>
+                    <label for="">Quarta opção:</label>
+                    <input type="text" name="" id="veg-4">
+                </li>
+                <li>
+                    <label for="">Quinta opção:</label>
+                    <input type="text" name="" id="veg-5">
+                </li>
+                <input type="button" value="Envia lista vegana" class="enviar-lista-veg">
+            </ul>
+        </div>
+        <div class="segunda">
+            <h4>Cardápio vegano orgânico</h4>
+            <ul class="vegano-organico">
+                <li>
+                    <label for="">Primeira opção:</label>
+                    <input type="text" name="" id="veg-org-1">
+                </li>
+                <li>
+                    <label for="">Segunda opção:</label>
+                    <input type="text" name="" id="veg-org-2">
+                </li>
+                <li>
+                    <label for="">Terceira opção:</label>
+                    <input type="text" name="" id="veg-org-3">
+                </li>
+                <li>
+                    <label for="">Quarta opção:</label>
+                    <input type="text" name="" id="veg-org-4">
+                </li>
+                <li>
+                    <label for="">Quinta opção:</label>
+                    <input type="text" name="" id="veg-org-5">
+                </li>
+                <input type="button" value="Envia lista vegana orgânica" class="enviar-lista-veg-org">
+            </ul>
+        </div>
     </section>
 
-    <script src="js/jquery.js"></script>
     <script src="js/acesso.js"></script>
 
     <div class="vazia_3"></div>

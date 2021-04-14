@@ -1,17 +1,18 @@
-let botaoValidar = document.querySelector('.botaoValidar');
-botaoValidar.addEventListener("click", function (event) {
+let acesso = document.querySelector(".submit-button");
+acesso.addEventListener("click", function (event) {
     //  <-- barra comportamento padrão navegado -->
     event.preventDefault();
 
-    let form = document.querySelector("#acesso");
-    let usuario = form.login.value;
-    let senha = form.senha.value;
+    let form = document.querySelector("#login-form");
+    let usuario = document.querySelector(".login").value;
+    let senha = document.querySelector(".senha").value;
 
-    if (usuario == 123 && senha == 123) {
-        ocultaAdicionaCardapio();
-        
+    if (usuario == "a" && senha == "a") {
+        //ocultaAdicionaCardapio();
+        console.log("ok")
+
     } else {
-        //alert("senha e usuarios inválidos");
+       // alert("senha e usuarios inválidos");
     }
 });
 
@@ -22,17 +23,49 @@ function ocultaAdicionaCardapio() {
 
 
 
+// <--- listas --->
 
 function criaListaVegana() {
-    let botaoAdicionar = document.querySelector(".comida-vegana");
-    botaoAdicionar.addEventListener("click", function () {
-        let lista = document.querySelector(".cardapio-normal");
-        console.log(lista);
-    })
+    let enviaListaVegana = document.querySelector(".enviar-lista-veg");
+    enviaListaVegana.addEventListener("click", function () {
 
+        let primeira = document.querySelector("#veg-1");
+        let segunda =document.querySelector("#veg-2");
+        let terceira =  document.querySelector("#veg-3");
+        let quarta = document.querySelector("#veg-4");
+        let quinta = document.querySelector("#veg-5");
 
+       let primeiroInput = primeira.value;
+       let segundoInput = segunda.value;
+       let terceiroInput = terceira.value;
+       let quartoInput = quarta.value;
+       let quintoInput = quinta.value;
 
-}
+    });
+};
 
+function criaListaVeganaOrganica() {
+    let enviaListaVeganaOrganico = document.querySelector(".enviar-lista-veg-org");
+    enviaListaVeganaOrganico.addEventListener("click", function () {
 
+        let primeira = document.querySelector("#veg-org-1");
+        let segunda =document.querySelector("#veg-org-2");
+        let terceira =  document.querySelector("#veg-org-3");
+        let quarta = document.querySelector("#veg-org-4");
+        let quinta = document.querySelector("#veg-org-5");
 
+        
+       let primeiroInput = primeira.value;
+       let segundoInput = segunda.value;
+       let terceiroInput = terceira.value;
+       let quartoInput = quarta.value;
+       let quintoInput = quinta.value;
+
+    });
+};
+
+function pegaInputVegano(){
+    document.querySelector
+};
+
+criaListaVeganaOrganica();

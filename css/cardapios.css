@@ -1,42 +1,55 @@
+
 body {
     font-family: 'Work Sans', sans-serif;
     background:  #fefefe;
   }
+  :root{
+    --green-dark:#426d49;
+    --green-2: #5f904a85;
+  }
+ /* formulario */ 
+  .login-form {
+    display: flex;
+    background-color: #5f904a85;
+    color: black;
+    font-weight: 400;
+    padding: 10px;
+    font-size: smaller;
+    font-family: 'Work Sans', sans-serif;
+  }
+   
+  .submit-button {
+    margin-left: 10px;
+    align-self: flex-end;
+  }
+    
+  .input-container + .input-container {
+    margin-left: 10px;
+  }
+  
+  .input-container label {
+    display: block;
+  }
 
- header {
-    background: rgba(251, 211, 185);
-    padding: 20px 0;
+/* menu navegação */
+img{
+    width: 300px;
+   height: 150px;
+}
+.navbar{
+    background-color: #426d49;
+}
+.nav-item{
+    color: #fefefe;
+    font-size: 28px;
+    font-weight: 500;
+    margin: 18px;
+}
+.nav-item:hover{
+    color: #b3be15
 }
 
-.menu {
-    position: relative;
-    width: 940px;
-    margin: 0 auto;
-}
 
-nav {
-    position: absolute;
-    top: 100px;
-    right: 0px;
-}
-
-nav li {
-    display: inline;
-    margin-left: 40px;
-}
- 
-nav a {
-    text-transform: uppercase; /*maiusculas*/
-    text-decoration: none;
-    color: rgba(53, 137, 26);
-    font-weight: bold;
-    font-size: 20px;
-}
-
-nav a:hover {
-    color: rgba(54, 137, 26, 0.404);
-    text-decoration: underline; /*cria a linha de menu*/
-}
 
 /*-----------------------------------------------*/
 
@@ -114,3 +127,12 @@ footer {
     text-align: center;
     padding-bottom: 7px;
 }
+/*-----*/
+
+  
+
+
+
+  
+
+ 
