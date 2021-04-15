@@ -13,51 +13,22 @@
 </head>
 
 <body>
-    <!-- Login -->
-    <div class="d-flex justify-content-end login">
-        <div class="row">
-            <div class="col-lg-12">
-                <form class="login-form">
-                    <div class="input-container">
-                        <label for="email">Login</label>
-                        <input class="login" name="login" type="text">
-                    </div>
-
-                    <div class="input-container ">
-                        <label for="password">Senha</label>
-                        <input class="senha" name="senha" type="password">
-                    </div>
-                    <input class="submit-button" type="submit" value="Entrar">
-                </form>
-                </div>
-        </div>
-    </div>
-
-    <!---->
     <header>
-        <!-- Menu -->
-        <nav class="navbar navbar-expand-lg navbar-light>
+        <nav class="navbar navbar-expand-lg navbar-light">
             <a class=" navbar-brand" href="#"><img src="assets/isla logo.png" /></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
                 <span class="navbar-toggler-icon"></span>
             </button>
-                <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(Página
-                                atual)</span></a>
-                        <a class="nav-item nav-link active" href="#">Cardápios </a>
-                        <a class="nav-item nav-link active" href="#">Encomendas</a>
-
-                    </div>
+            <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#">Home</a>
+                    <a class="nav-item nav-link active" href="#">Cardápios </a>
+                    <a class="nav-item nav-link active" href="#">Encomendas</a>
                 </div>
+            </div>
         </nav>
     </header>
-
-    <section>
-        <div class="vazia"></div>
-    </section>
-
     <section>
         <div class="cardapio-normal">
             <h2>Cardápio da semana</h2>
@@ -136,13 +107,52 @@
         </div>
     </section>
 
-    <script src="js/acesso.js"></script>
-    <div class="vazia_3"></div>
-    <footer>
-        <img src="assets/logo_isla.jpg" alt="logo_isla_vegana" class="img_rodape">
-        <p class="copyright">&copy; Copyright Isla Vegana - 2021</p>
+
+
+    <!-- Footer -->
+
+    <footer class="footer mt-auto py-3">
+        <div class="container">
+            <span class="text-muted">
+                <div class="mudacortexto">Coloque o conteúdo do sticky footer aqui.</div>
+            </span>
+
+            <div class="btn-group">
+                <button class="btn btn-success btn-sm dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Entrar
+                </button>
+                <div class="dropdown-menu p-4" aria-labelledby="dropdownMenuButton">
+                    <h6 class="dropdown-header">Login</h6>
+                    <div class="dropdown-divider"></div>
+    
+                    <div class="form-group">
+                        <label for="exampleDropdownFormEmail2">Usuário</label>
+                        <input type="usuario" class="form-control" id=""
+                            placeholder="@Usuário">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleDropdownFormPassword2">Senha</label>
+                        <input type="password" class="form-control" id="" placeholder="Senha">
+                    </div>
+                    <button type="submit" class="btn btn-success btn-sm btn-primary">Entrar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
 </body>
 
 </html>

@@ -1,36 +1,12 @@
 
 body {
     font-family: 'Work Sans', sans-serif;
-    background:  #fefefe;
   }
   :root{
     --green-dark:#426d49;
     --green-2: #5f904a85;
+    --white2: #fefefe;
   }
- /* formulario */ 
-  .login-form {
-    display: flex;
-    background-color: #5f904a85;
-    color: black;
-    font-weight: 400;
-    padding: 10px;
-    font-size: smaller;
-    font-family: 'Work Sans', sans-serif;
-  }
-   
-  .submit-button {
-    margin-left: 10px;
-    align-self: flex-end;
-  }
-    
-  .input-container + .input-container {
-    margin-left: 10px;
-  }
-  
-  .input-container label {
-    display: block;
-  }
-
 /* menu navegação */
 img{
     width: 300px;
@@ -38,7 +14,11 @@ img{
 }
 .navbar{
     background-color: #426d49;
+    padding-bottom: 24px;
+    margin: 0px;
+    border: 0px;
 }
+
 .nav-item{
     color: #fefefe;
     font-size: 28px;
@@ -114,25 +94,21 @@ h2 {
     padding-top: 20px;
 }
 
-/*-----------------------------------------------*/
-
-footer {
-    background: rgba(251, 211, 185);    
+/*---------------- footer -------------------------*/
+.footer{
+    background-color: #426d49;
 }
-.img_rodape {
-    padding-left: 47% ;
-   }
-
-.copyright {
+.container{
+    display: flex;
+}
+.mudacortexto{
+    color: #fefefe;
+}
+.dropdown-header{
     text-align: center;
-    padding-bottom: 7px;
 }
-/*-----*/
-
-  
-
-
-
-  
-
- 
+.form-control{
+    width: min-content;
+}
+.dropup{
+}
