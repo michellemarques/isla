@@ -1,6 +1,7 @@
 
 body {
     font-family: 'Work Sans', sans-serif;
+    background-color: #CDD193;
   }
   :root{
     --green-dark:#426d49;
@@ -17,19 +18,34 @@ img{
     padding-bottom: 24px;
     margin: 0px;
     border: 0px;
+    
 }
 
 .nav-item{
-    color: #fefefe;
+    color: #fff;
     font-size: 28px;
     font-weight: 500;
     margin: 18px;
 }
 .nav-item:hover{
-    color: #b3be15
+    color: #BACC81
 }
-
-
+/* -- botão --*/
+.mudacortexto{
+    color: #fefefe;
+}
+.btn{
+    background-color: #426d49a6;
+}
+.btn:hover{
+    background-color: #BACC81;
+}
+.dropdown-header{
+    text-align: center;
+}
+.form-control{
+    width: min-content;
+}
 
 /*-----------------------------------------------*/
 
@@ -99,16 +115,19 @@ h2 {
     background-color: #426d49;
 }
 .container{
-    display: flex;
+    display: flexbox;
 }
-.mudacortexto{
-    color: #fefefe;
+
+.social-icons{
+    display: inline;
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+    
 }
-.dropdown-header{
-    text-align: center;
+.cortexto{
+    color: #ffffff;
+    font-weight: 400;
 }
-.form-control{
-    width: min-content;
-}
-.dropup{
-}
+
+

@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="icon" type="image/x-icon" href="assets/social-icons/aba.png" />
     <link rel="stylesheet" href="css/style.css">
 
     <title>Isla vegana - Home</title>
@@ -16,44 +18,97 @@
 <body>
 
     <header>
-        <div class="menu">
-            <h1><img src="assets/logo_isla.png" alt="logo_isla_vagana"> </h1>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class=" navbar-brand" href="#"><img src="assets/isla logo.png" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavAltMarkup">
+                <div class="navbar-nav navbar-light">
+                    <a class="nav-item active" href="#">Home</a>
+                    <a class="nav-item active" href="#">Cardápios </a>
+                    <a class="nav-item active" href="#">Encomendas</a>
+                    <li class="nav-item dropdown">
+                </div>
+            </div>
+        </nav>
 
-            <nav>
-                <ul>
-                    <li><a href="index.html"> Home </a></li>
-                    <li><a href="cardapios.html"> Cardápios semanais </a></li>
-                    <li><a href="formulario.html"> Encomendas </a></li>
-                </ul>
-            </nav>
-        </div>
-        
     </header>
 
-    <main>
-        <section>
-            <div class="vazia">
-            </div>
-        </section>
-        <section class="sobre">
-            <div>
+    <main class="main" role="main">
+        <div class="container marketing">
+            <section class="jumbotron text-center">
+                <div class="container">
+                    <h1 class="jumbotron-heading">Sobre o Isla Vegana</h1>
+                    <p class="lead text-muted">Algo curto e direto, sobre a coleção abaixo (conteúdo, criador e etc).
+                        Faça
+                        com que seja curto e legal, mas não tão curto ao ponto de as pessoas pularem ele.</p>
+                </div>
 
-                <h2 class="titulo_sobre">Sobre o Isla Vegana</h2>
-                <img class="img_sobre" src="assets/prato_1.jpeg" alt="risoto_de_palmito">
-                <img class="img_sobre" src="assets/prato_3.jpeg" alt="sei lá">
-                <img class="img_sobre" src="assets/prato_4.jpeg" alt="sei lá">
-                <p>Somos uma pequena empresa localizada na Ilha do Governador.
-                <p>Estamos aqui para proprocionar uma alimentação rica, saudável e livre de crueldade.
-                    Todos os nossos produtos são preparados com o máximo de higiene e muito carinho para
-                    proporcionar a você a melhor exepriência com o mundo vegano.</p>
-            </div>
+            </section>
+            <hr class="featurette-divider">
+            <section>
+                <div class="row featurette">
+                    <div class="col-md-7">
+                        <h2 class="featurette-heading">Primeiro título de featurezinhas. <span
+                                class="text-muted">Supreendente, não?!</span></h2>
+                        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta
+                            felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce
+                            dapibus, tellus ac cursus commodo.</p>
+                    </div>
+                    <div class="col-md-5">
+                        <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto"
+                            alt="Generic placeholder image" src="assets/Highfive-pana.png">
+                    </div>
+                </div>
+                <hr class="featurette-divider">
+                <div class="row featurette">
+                    <div class="col-md-7 order-md-2">
+                        <h2 class="featurette-heading">Aêêê, moleque! <span class="text-muted">Tá legal ou não
+                                tá?</span></h2>
+                        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta
+                            felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce
+                            dapibus, tellus ac cursus commodo.</p>
+                    </div>
+                    <div class="col-md-5 order-md-1">
+                        <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto"
+                            alt="Generic placeholder image" src="assets/Chef-pana.png">
+                    </div>
+                </div>
 
-        </section>
+                <hr class="featurette-divider">
 
-        <section>
-            <div class="vazia_2">
-            </div>
-        </section>
+                <div class="row featurette">
+                    <div class="col-md-7">
+                        <h2 class="featurette-heading">E, por último, essa aqui. <span
+                                class="text-muted">Xeque-mate!</span></h2>
+                        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta
+                            felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce
+                            dapibus, tellus ac cursus commodo.</p>
+                    </div>
+                    <div class="col-md-5">
+                        <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto"
+                            alt="Generic placeholder image" src="assets/Stayathome-pana.png">
+                    </div>
+                </div>
+                <hr class="featurette-divider">
+
+                <div class="row featurette">
+                    <div class="col-md-7">
+                        <h2 class="featurette-heading">E, por último, essa aqui. <span
+                                class="text-muted">Xeque-mate!</span></h2>
+                        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta
+                            felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce
+                            dapibus, tellus ac cursus commodo.</p>
+                    </div>
+                    <div class="col-md-5">
+                        <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto"
+                            alt="Generic placeholder image" src="assets/Stay at home-pana.png" src="assets/TakeAway-rafiki.png">
+                    </div>
+                </div>
+            </section>
+        </div>
 
         <section class="pedidos">
             <div class="mais_pedidos">
@@ -62,10 +117,12 @@
 
                 <p class="txt_pedidos"><img class="img_pedidos" src="assets/tofu.jpeg" alt="tofu"> Tofu defumado </p>
 
-                <p class="txt_pedidos"><img class="img_pedidos" src="assets/prato_2.jpeg" alt="tofu_acebolado"> Tofu acebolado
+                <p class="txt_pedidos"><img class="img_pedidos" src="assets/prato_2.jpeg" alt="tofu_acebolado"> Tofu
+                    acebolado
                 </p>
 
-                <p class="txt_pedidos"><img class="img_pedidos" src="assets/salgadinhos.jpeg" alt="salgadinhos"> Salgadinhos
+                <p class="txt_pedidos"><img class="img_pedidos" src="assets/salgadinhos.jpeg" alt="salgadinhos">
+                    Salgadinhos
                 </p>
 
             </div>
@@ -76,10 +133,36 @@
 
     </main>
 
-    <footer>
-        <img src="assets/logo_isla.jpg" alt="logo_isla_vegana" class="img_rodape">
-        <p class="copyright">&copy; Copyright Isla Vegana - 2021</p>
+    <footer class="footer mt-auto py-3">
+        <div class="container">
+            <div class="social-icon text-center">
+                <a href="#" title="instagram"><img src="assets/social-icons/facebook.png" class="social-icons">
+                </a>
+                <a href="#" title="instagram"><img src="assets/social-icons/instagram.png" class="social-icons">
+                </a>
+                <a href="#" title="instagram"><img src="assets/social-icons/whatsapp.png" class="social-icons">
+                </a>
+                <a href="#" title="instagram"><img src="assets/social-icons/youtube.png" class="social-icons">
+                </a>
+                <a href="#" title="instagram"><img src="assets/social-icons/twitter.png" class="social-icons">
+                </a>
+            </div>
+            <span class="text-center">
+                <div class="cortexto">© Copyright Isla Vegana - 2021</div>
+            </span>
+        </div>
+        </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
 </body>
 
 </html>

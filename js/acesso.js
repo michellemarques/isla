@@ -1,11 +1,11 @@
-let acesso = document.querySelector(".submit-button");
+let acesso = document.querySelector(".enviar");
 acesso.addEventListener("click", function (event) {
     //  <-- barra comportamento padrão navegado -->
     event.preventDefault();
 
-    let form = document.querySelector("#login-form");
-    let usuario = document.querySelector(".login").value;
-    let senha = document.querySelector(".senha").value;
+    let form = document.querySelector(".form-group");
+    let usuario = document.querySelector("#usuario").value;
+    let senha = document.querySelector("#senha").value;
 
     if (usuario == "a" && senha == "a") {
         //ocultaAdicionaCardapio();
