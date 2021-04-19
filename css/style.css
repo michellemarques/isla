@@ -1,10 +1,10 @@
 body {
     font-family: 'Work Sans', sans-serif;
-    background-color: #8BCA67;
+    background-color: #fff;
 }
 
 /* menu navegação */
-img{
+.img-h1{
     width: 300px;
    height: 150px;
 }
@@ -27,7 +27,52 @@ img{
 }
 
 /*---- Main ----*/
+.container{
+    margin: 0px, 0px, 0px, 0px;
+}
+.marketing{
+   padding: 0px;
+}
+.primeiro{
+    padding: 40px 80px 80px 80px;
+    background-color: #EFE7BC;
+}
+.col-md-7{
+    margin-top: 30px;
+}
+.ajuste-1{
+    padding: 240px 0px 0px 10px ;
+}
+.lead{
+    margin-top: 40px;
+    font-size: 1.2rem;
+}
+.img-fluid{
+    width: auto;
+}
+.featurette-heading{
+    font-size: 1.8rem;
+}
 
+.segundo{
+    background-color: #93E9BE;
+}
+.cozinheiro{
+    width: 90%;
+}
+.order-md-2{
+    padding: 150px 15px 0px 15px;
+}
+.pratos{
+    background-color: #fff;
+}
+.quarto{
+    background-color: #E7F2F8;
+    display: flex;
+}
+.entrega{
+    width: 50%;
+}
 
 /*---------------- footer -------------------------*/
 .footer{
